@@ -1,6 +1,6 @@
 #!/bin/bash
 
-ssh-keygen -t ed25519 -C "your_email@example.com"
+ssh-keygen -t ed25519 -C "your_email@example.com" -f ~/.ssh/id_ed25519 -N ''
 
 eval "$(ssh-agent -s)"
 
